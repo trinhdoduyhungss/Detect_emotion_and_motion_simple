@@ -1,6 +1,6 @@
 ![](https://images.viblo.asia/2ce0132d-e67d-4808-a71c-6d99eb4ae2f4.PNG)
 # Introduction
-#### Facial emotion identification was a familiar problem in the world of computer vision. Although we have already many libraries that can help create an emotion detection system more convenient than in the past, we will depend on the ability of that and its pre-trained models. So, if you want to expand the recognition capabilities to your liking in the easiest way, welcome to my project. I will choose a very humanistic theme that is "Smiles"
+#### Facial emotion identification was a familiar problem in the world of computer vision. Although we have already many libraries that can help create an emotion detection system more convenient than in the past, we will depend on the ability of that and its pre-trained models. So, if you want to expand the recognition capabilities to your liking in the easiest way, welcome to my project. I will choose a very humanistic theme that is "Smiles".
 
 # Ideas
 The main idea here is that we will define the shape of the mouth and the threshold instead of using advanced algorithms like Machine Learning or Deep Learning for smile detection.
@@ -23,7 +23,7 @@ Formula for the Length of a Vector](https://www.wikihow.vn/T%C3%ADnh-%C4%91%E1%B
    `pip install opencv-python`
    * Dowload the file shape_predictor_68_face_landmarks.dat [tại đây](https://drive.google.com/file/d/13OZVVPDcmIIBFIo4yqdEL_cK0A7Gik5A/view?usp=sharing) \
     The landmark file that look like this :
-            ![Công dụng của file này là xác định 68 điểm trên gương mặt của bạn đấy](https://scontent.fdad4-1.fna.fbcdn.net/v/t1.6435-9/71720201_392247348363407_1973497817078956032_n.jpg?_nc_cat=102&_nc_map=test-rt&ccb=1-3&_nc_sid=174925&_nc_ohc=BZ2AMUnTlDAAX9oINaE&_nc_ht=scontent.fdad4-1.fna&oh=5b0fdc516df9e82ae2cccd04e474cc3b&oe=60B62993)
+            ![Example of facial markers](https://scontent.fdad4-1.fna.fbcdn.net/v/t1.6435-9/71720201_392247348363407_1973497817078956032_n.jpg?_nc_cat=102&_nc_map=test-rt&ccb=1-3&_nc_sid=174925&_nc_ohc=BZ2AMUnTlDAAX9oINaE&_nc_ht=scontent.fdad4-1.fna&oh=5b0fdc516df9e82ae2cccd04e474cc3b&oe=60B62993)
 
      Each white point in the image is a landmark for your face, the effect of this file will give us a model that defines 68 landmarks on the face, we will use the markers to define the shape of the mouth!
  #### Let's coding:
@@ -73,5 +73,5 @@ for rect in dets:
   ![markers of mouth](https://scontent.fdad4-1.fna.fbcdn.net/v/t1.6435-9/59786701_300642360857240_7484141720582488064_n.jpg?_nc_cat=108&_nc_map=test-rt&ccb=1-3&_nc_sid=730e14&_nc_ohc=iII6imlX-FQAX9mA0ur&_nc_ht=scontent.fdad4-1.fna&oh=d804e5d863423ca615c272a77379b519&oe=60B578EC)
   #### Calculation
   ...
-  
+
 [Read more at my Vietnamese post on Viblo](https://viblo.asia/p/computer-vision-phat-hien-guong-mat-va-nhan-dien-nu-cuoi-don-gian-cho-nguoi-moi-bat-dau-vyDZOwbGZwj#_=_)
